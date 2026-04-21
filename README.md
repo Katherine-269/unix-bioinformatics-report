@@ -70,3 +70,36 @@ Use case:
 Used to save extracted coordinates or analysis results.
 Example:
 grep TP53 mutations.tsv > tp53_results.txt
+
+## Data Manipulation
+### 1. grep
+Purpose:
+Searches for matching patterns in a file.
+Use case:
+Used to identify TP53 mutations in a mutation dataset.
+Example:
+grep TP53 mutations.tsv
+
+### 2. wc
+Purpose:
+Counts lines, words, or characters.
+Use case:
+Used to count the number of mutation records.
+Example:
+grep TP53 mutations.tsv | wc -l
+
+### 3. head
+Purpose:
+Displays the first lines of a file.
+Use case:
+Used to inspect the beginning of annotation or sequence files.
+Example:
+head annotations.gtf
+
+### 4. tail
+Purpose:
+Displays the last lines of a file
+Use case:
+Used to inspect the end of data files.
+Example:
+tail annotations.gtf
