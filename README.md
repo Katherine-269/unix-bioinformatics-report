@@ -134,3 +134,34 @@ Purpose:
 Provide descriptive records of project changes.
 Use case:
 Used to document meaningful project progression.
+
+## Text Processing and File Operations
+### 1. cut
+Purpose:
+Extracts specific columns from structured files.
+Use case:
+Used to extract mutation type or genomic coordinates from tabular data.
+Example:
+cut -f 2 mutations.tsv
+
+### 2. sort
+Purpose:
+Sorts lines in a file.
+Use case:
+Used to order mutation records or genomic coordinates.
+Example:
+sort mutations.tsv
+
+### 3. uniq
+Purpose:
+Identifies or counts unique values.
+Use case:
+Used to count mutation categories.
+Example:
+sort mutations.tsv | uniq -c
+
+### 4. join
+Purpose:
+Merges two files using a common field.
+Use case:
+Used to combine related biological datasets.
