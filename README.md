@@ -165,3 +165,16 @@ Purpose:
 Merges two files using a common field.
 Use case:
 Used to combine related biological datasets.
+
+## Key Learnings
+Through this course I developed foundational understanding of:
+
+- Linux command-line navigation
+
+- Shell tools for handling biological data
+
+- Pattern searching and data manipulation
+
+- Git and GitHub for reproducible research
+
+- Text processing tools used in bioinformatics workflows
