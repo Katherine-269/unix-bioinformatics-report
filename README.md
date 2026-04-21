@@ -44,3 +44,29 @@ Purpose:
 Creates an empty file.
 Use case:
 Used to create placeholder files such as scripts or notes.
+
+## Shell Expansions and Redirection
+
+### 1. Wildcards (*)
+Purpose:
+Used to match multiple filenames.
+Use case:
+Can select multiple FASTA files at once.
+Example:
+*.fasta
+
+### 2. Pipes (|)
+Purpose:
+Passes output from one command into another command.
+Use case:
+Used to filter and count biological features.
+Example:
+grep TP53 mutations.tsv | wc -l
+
+### 3. Output Redirection (>)
+Purpose:
+Sends command output into a file.
+Use case:
+Used to save extracted coordinates or analysis results.
+Example:
+grep TP53 mutations.tsv > tp53_results.txt
