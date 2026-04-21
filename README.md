@@ -11,7 +11,7 @@ This repository documents Linux, Unix, Git, and bioinformatics concepts learned 
 - Text Processing
 
 ## Status
-Repository under development. Module-wise documentation will be added progressively.
+Documentation completed. Repository reflects key concepts and command-line applications.
 
 ## 1.Linux Essentials
 
