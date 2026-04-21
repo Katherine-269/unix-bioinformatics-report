@@ -13,7 +13,7 @@ This repository documents Linux, Unix, Git, and bioinformatics concepts learned 
 ## Status
 Repository under development. Module-wise documentation will be added progressively.
 
-## Module 1 — Linux Essentials
+## 1.Linux Essentials
 
 ### 1. pwd
 Purpose:
