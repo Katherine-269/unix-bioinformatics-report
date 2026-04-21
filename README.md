@@ -103,3 +103,34 @@ Use case:
 Used to inspect the end of data files.
 Example:
 tail annotations.gtf
+
+## Git and GitHub
+### 1. git add
+Purpose:
+Stages changes before committing.
+Use case:
+Used to prepare updated documentation or scripts for version control.
+Example:
+git add .
+
+### 2. git commit
+Purpose:
+Creates a snapshot of project changes.
+Use case:
+Used to record progress during bioinformatics analysis.
+Example:
+git commit -m "Added data analysis notes"
+
+### 3. git push
+Purpose:
+Uploads committed changes to GitHub.
+Use case:
+Used to synchronize local changes with the remote repository.
+Example:
+git push
+
+### 4. Commit Messages
+Purpose:
+Provide descriptive records of project changes.
+Use case:
+Used to document meaningful project progression.
